@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.image_contain {
+  background-image: url(/img/cover3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: flex-end;
+}
+
+.bar img {
+  width: 30px;
+}
+
+header a {
+  display: none;
+  /* display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 20px;
+  border-bottom: 1px solid white;
+  padding-bottom: 4px;
+  align-items: center;
+  justify-content: center; */
+}
+
+header .logo img {
+  width: 80px;
+  margin-right: 25px;
+}
+
+header .cart img {
+  width: 30px;
+}
+
+.main_image img {
+  width: 150px;
+}
+
+.main {
+  padding: 60px 20px 100px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.main_para {
+  margin-left: 20px;
+  color: white;
+}
+
+.main_para p {
+  font-size: 0.6rem;
+}
+
+.main h1 {
+  line-height: 2rem;
+  margin-bottom: 10px;
+}
+
+.res_color {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.resources {
+  display: flex;
+  color: white;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.res1 {
+  padding-left: 20px;
+}
+
+.res1_para p{
+  padding-bottom: 10px;
+}
+
+.res1_para button{
+  color: black;
+  background-color: #7affff;
+  border: none;
+  font-weight: bold;
+  padding: 12px 20px;
+}
